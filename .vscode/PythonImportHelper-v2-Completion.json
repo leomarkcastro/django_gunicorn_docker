@@ -567,7 +567,7 @@
         "kind": 5,
         "importPath": "server.settings",
         "description": "server.settings",
-        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/4.1/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = os.getenv('DJANGO_SECRET_KEY')\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = os.getenv(\"SERVER_URL\").split(',')\nCSRF_TRUSTED_ORIGINS = os.getenv(\"CSRF_TRUSTED_ORIGINS\").split(',')\n# Application definition",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/4.1/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = os.getenv('DJANGO_SECRET_KEY')\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = os.getenv(\"SERVER_URL\").split(\n    ',') if os.getenv(\"SERVER_URL\") else []\nCSRF_TRUSTED_ORIGINS = os.getenv(\"CSRF_TRUSTED_ORIGINS\").split(",
         "detail": "server.settings",
         "documentation": {}
     },
@@ -576,7 +576,7 @@
         "kind": 5,
         "importPath": "server.settings",
         "description": "server.settings",
-        "peekOfCode": "SECRET_KEY = os.getenv('DJANGO_SECRET_KEY')\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = os.getenv(\"SERVER_URL\").split(',')\nCSRF_TRUSTED_ORIGINS = os.getenv(\"CSRF_TRUSTED_ORIGINS\").split(',')\n# Application definition\ndef combine_lists(*lists):\n    return [item for sublist in lists for item in sublist]\nINSTALLED_APPS = combine_lists(\n    [",
+        "peekOfCode": "SECRET_KEY = os.getenv('DJANGO_SECRET_KEY')\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = os.getenv(\"SERVER_URL\").split(\n    ',') if os.getenv(\"SERVER_URL\") else []\nCSRF_TRUSTED_ORIGINS = os.getenv(\"CSRF_TRUSTED_ORIGINS\").split(\n    ',') if os.getenv(\"CSRF_TRUSTED_ORIGINS\") else []\n# Application definition\ndef combine_lists(*lists):\n    return [item for sublist in lists for item in sublist]",
         "detail": "server.settings",
         "documentation": {}
     },
@@ -585,7 +585,7 @@
         "kind": 5,
         "importPath": "server.settings",
         "description": "server.settings",
-        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = os.getenv(\"SERVER_URL\").split(',')\nCSRF_TRUSTED_ORIGINS = os.getenv(\"CSRF_TRUSTED_ORIGINS\").split(',')\n# Application definition\ndef combine_lists(*lists):\n    return [item for sublist in lists for item in sublist]\nINSTALLED_APPS = combine_lists(\n    [\n        'posts.apps.PostsConfig',\n    ],",
+        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = os.getenv(\"SERVER_URL\").split(\n    ',') if os.getenv(\"SERVER_URL\") else []\nCSRF_TRUSTED_ORIGINS = os.getenv(\"CSRF_TRUSTED_ORIGINS\").split(\n    ',') if os.getenv(\"CSRF_TRUSTED_ORIGINS\") else []\n# Application definition\ndef combine_lists(*lists):\n    return [item for sublist in lists for item in sublist]\nINSTALLED_APPS = combine_lists(\n    [",
         "detail": "server.settings",
         "documentation": {}
     },
@@ -594,7 +594,7 @@
         "kind": 5,
         "importPath": "server.settings",
         "description": "server.settings",
-        "peekOfCode": "ALLOWED_HOSTS = os.getenv(\"SERVER_URL\").split(',')\nCSRF_TRUSTED_ORIGINS = os.getenv(\"CSRF_TRUSTED_ORIGINS\").split(',')\n# Application definition\ndef combine_lists(*lists):\n    return [item for sublist in lists for item in sublist]\nINSTALLED_APPS = combine_lists(\n    [\n        'posts.apps.PostsConfig',\n    ],\n    [",
+        "peekOfCode": "ALLOWED_HOSTS = os.getenv(\"SERVER_URL\").split(\n    ',') if os.getenv(\"SERVER_URL\") else []\nCSRF_TRUSTED_ORIGINS = os.getenv(\"CSRF_TRUSTED_ORIGINS\").split(\n    ',') if os.getenv(\"CSRF_TRUSTED_ORIGINS\") else []\n# Application definition\ndef combine_lists(*lists):\n    return [item for sublist in lists for item in sublist]\nINSTALLED_APPS = combine_lists(\n    [\n        'posts.apps.PostsConfig',",
         "detail": "server.settings",
         "documentation": {}
     },
@@ -603,7 +603,7 @@
         "kind": 5,
         "importPath": "server.settings",
         "description": "server.settings",
-        "peekOfCode": "CSRF_TRUSTED_ORIGINS = os.getenv(\"CSRF_TRUSTED_ORIGINS\").split(',')\n# Application definition\ndef combine_lists(*lists):\n    return [item for sublist in lists for item in sublist]\nINSTALLED_APPS = combine_lists(\n    [\n        'posts.apps.PostsConfig',\n    ],\n    [\n        'rest_framework',",
+        "peekOfCode": "CSRF_TRUSTED_ORIGINS = os.getenv(\"CSRF_TRUSTED_ORIGINS\").split(\n    ',') if os.getenv(\"CSRF_TRUSTED_ORIGINS\") else []\n# Application definition\ndef combine_lists(*lists):\n    return [item for sublist in lists for item in sublist]\nINSTALLED_APPS = combine_lists(\n    [\n        'posts.apps.PostsConfig',\n    ],\n    [",
         "detail": "server.settings",
         "documentation": {}
     },
