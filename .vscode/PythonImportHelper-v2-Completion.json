@@ -8,38 +8,6 @@
         "documentation": {}
     },
     {
-        "label": "AppConfig",
-        "importPath": "django.apps",
-        "description": "django.apps",
-        "isExtraImport": true,
-        "detail": "django.apps",
-        "documentation": {}
-    },
-    {
-        "label": "AppConfig",
-        "importPath": "django.apps",
-        "description": "django.apps",
-        "isExtraImport": true,
-        "detail": "django.apps",
-        "documentation": {}
-    },
-    {
-        "label": "AppConfig",
-        "importPath": "django.apps",
-        "description": "django.apps",
-        "isExtraImport": true,
-        "detail": "django.apps",
-        "documentation": {}
-    },
-    {
-        "label": "path",
-        "importPath": "django.urls",
-        "description": "django.urls",
-        "isExtraImport": true,
-        "detail": "django.urls",
-        "documentation": {}
-    },
-    {
         "label": "path",
         "importPath": "django.urls",
         "description": "django.urls",
@@ -64,43 +32,11 @@
         "documentation": {}
     },
     {
-        "label": "path",
-        "importPath": "django.urls",
-        "description": "django.urls",
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
         "isExtraImport": true,
-        "detail": "django.urls",
-        "documentation": {}
-    },
-    {
-        "label": "path",
-        "importPath": "django.urls",
-        "description": "django.urls",
-        "isExtraImport": true,
-        "detail": "django.urls",
-        "documentation": {}
-    },
-    {
-        "label": "include",
-        "importPath": "django.urls",
-        "description": "django.urls",
-        "isExtraImport": true,
-        "detail": "django.urls",
-        "documentation": {}
-    },
-    {
-        "label": "csrf_exempt",
-        "importPath": "django.views.decorators.csrf",
-        "description": "django.views.decorators.csrf",
-        "isExtraImport": true,
-        "detail": "django.views.decorators.csrf",
-        "documentation": {}
-    },
-    {
-        "label": "JsonResponse",
-        "importPath": "django.http",
-        "description": "django.http",
-        "isExtraImport": true,
-        "detail": "django.http",
+        "detail": "django.shortcuts",
         "documentation": {}
     },
     {
@@ -109,175 +45,6 @@
         "description": "django.http",
         "isExtraImport": true,
         "detail": "django.http",
-        "documentation": {}
-    },
-    {
-        "label": "json",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "json",
-        "description": "json",
-        "detail": "json",
-        "documentation": {}
-    },
-    {
-        "label": "render",
-        "importPath": "django.shortcuts",
-        "description": "django.shortcuts",
-        "isExtraImport": true,
-        "detail": "django.shortcuts",
-        "documentation": {}
-    },
-    {
-        "label": "get_object_or_404",
-        "importPath": "django.shortcuts",
-        "description": "django.shortcuts",
-        "isExtraImport": true,
-        "detail": "django.shortcuts",
-        "documentation": {}
-    },
-    {
-        "label": "render",
-        "importPath": "django.shortcuts",
-        "description": "django.shortcuts",
-        "isExtraImport": true,
-        "detail": "django.shortcuts",
-        "documentation": {}
-    },
-    {
-        "label": "migrations",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "admin",
-        "importPath": "django.contrib",
-        "description": "django.contrib",
-        "isExtraImport": true,
-        "detail": "django.contrib",
-        "documentation": {}
-    },
-    {
-        "label": "admin",
-        "importPath": "django.contrib",
-        "description": "django.contrib",
-        "isExtraImport": true,
-        "detail": "django.contrib",
-        "documentation": {}
-    },
-    {
-        "label": "Post",
-        "importPath": "posts.models",
-        "description": "posts.models",
-        "isExtraImport": true,
-        "detail": "posts.models",
-        "documentation": {}
-    },
-    {
-        "label": "Post",
-        "importPath": "posts.models",
-        "description": "posts.models",
-        "isExtraImport": true,
-        "detail": "posts.models",
-        "documentation": {}
-    },
-    {
-        "label": "Post",
-        "importPath": "posts.models",
-        "description": "posts.models",
-        "isExtraImport": true,
-        "detail": "posts.models",
-        "documentation": {}
-    },
-    {
-        "label": "Post",
-        "importPath": "posts.models",
-        "description": "posts.models",
-        "isExtraImport": true,
-        "detail": "posts.models",
-        "documentation": {}
-    },
-    {
-        "label": "User",
-        "importPath": "django.contrib.auth.models",
-        "description": "django.contrib.auth.models",
-        "isExtraImport": true,
-        "detail": "django.contrib.auth.models",
-        "documentation": {}
-    },
-    {
-        "label": "Group",
-        "importPath": "django.contrib.auth.models",
-        "description": "django.contrib.auth.models",
-        "isExtraImport": true,
-        "detail": "django.contrib.auth.models",
-        "documentation": {}
-    },
-    {
-        "label": "User",
-        "importPath": "django.contrib.auth.models",
-        "description": "django.contrib.auth.models",
-        "isExtraImport": true,
-        "detail": "django.contrib.auth.models",
-        "documentation": {}
-    },
-    {
-        "label": "Group",
-        "importPath": "django.contrib.auth.models",
-        "description": "django.contrib.auth.models",
-        "isExtraImport": true,
-        "detail": "django.contrib.auth.models",
-        "documentation": {}
-    },
-    {
-        "label": "serializers",
-        "importPath": "rest_framework",
-        "description": "rest_framework",
-        "isExtraImport": true,
-        "detail": "rest_framework",
-        "documentation": {}
-    },
-    {
-        "label": "routers",
-        "importPath": "rest_framework",
-        "description": "rest_framework",
-        "isExtraImport": true,
-        "detail": "rest_framework",
-        "documentation": {}
-    },
-    {
-        "label": "viewsets",
-        "importPath": "rest_framework",
-        "description": "rest_framework",
-        "isExtraImport": true,
-        "detail": "rest_framework",
-        "documentation": {}
-    },
-    {
-        "label": "permissions",
-        "importPath": "rest_framework",
-        "description": "rest_framework",
-        "isExtraImport": true,
-        "detail": "rest_framework",
         "documentation": {}
     },
     {
@@ -314,6 +81,14 @@
         "documentation": {}
     },
     {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
         "label": "settings",
         "importPath": "django.conf",
         "description": "django.conf",
@@ -347,33 +122,6 @@
         "documentation": {}
     },
     {
-        "label": "GetpostConfig",
-        "kind": 6,
-        "importPath": "getpost.apps",
-        "description": "getpost.apps",
-        "peekOfCode": "class GetpostConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'getpost'",
-        "detail": "getpost.apps",
-        "documentation": {}
-    },
-    {
-        "label": "urlpatterns",
-        "kind": 5,
-        "importPath": "getpost.urls",
-        "description": "getpost.urls",
-        "peekOfCode": "urlpatterns = [\n    path(\"\", views.route_test, name=\"index\"),\n]",
-        "detail": "getpost.urls",
-        "documentation": {}
-    },
-    {
-        "label": "route_test",
-        "kind": 2,
-        "importPath": "getpost.views",
-        "description": "getpost.views",
-        "peekOfCode": "def route_test(request):\n    \"\"\"\n    List all code snippets, or create a new snippet.\n    \"\"\"\n    if request.method == 'GET':\n        # get query params\n        query_params = request.GET\n        return JsonResponse({\n            \"method\": request.method,\n            \"path\": request.path,",
-        "detail": "getpost.views",
-        "documentation": {}
-    },
-    {
         "label": "LandingConfig",
         "kind": 6,
         "importPath": "landing.apps",
@@ -401,141 +149,6 @@
         "documentation": {}
     },
     {
-        "label": "Migration",
-        "kind": 6,
-        "importPath": "posts.migrations.0001_initial",
-        "description": "posts.migrations.0001_initial",
-        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Post',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('text', models.CharField(max_length=200)),",
-        "detail": "posts.migrations.0001_initial",
-        "documentation": {}
-    },
-    {
-        "label": "PostsConfig",
-        "kind": 6,
-        "importPath": "posts.apps",
-        "description": "posts.apps",
-        "peekOfCode": "class PostsConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'posts'",
-        "detail": "posts.apps",
-        "documentation": {}
-    },
-    {
-        "label": "Post",
-        "kind": 6,
-        "importPath": "posts.models",
-        "description": "posts.models",
-        "peekOfCode": "class Post(models.Model):\n    text = models.CharField(max_length=200)\n    pub_date = models.DateTimeField(\"date published\")\n    def __str__(self):\n        return self.text",
-        "detail": "posts.models",
-        "documentation": {}
-    },
-    {
-        "label": "urlpatterns",
-        "kind": 5,
-        "importPath": "posts.urls",
-        "description": "posts.urls",
-        "peekOfCode": "urlpatterns = [\n    # ex: /polls/\n    path(\"\", views.index, name=\"index\"),\n    # ex: /polls/5/\n    path(\"<int:question_id>/\", views.detail, name=\"detail_view\"),\n]",
-        "detail": "posts.urls",
-        "documentation": {}
-    },
-    {
-        "label": "index",
-        "kind": 2,
-        "importPath": "posts.views",
-        "description": "posts.views",
-        "peekOfCode": "def index(request):\n    latest_question_list = Post.objects.all()[:5]\n    return render(request, \"posts/index.html\", {\"latest_question_list\": latest_question_list})\ndef detail(request, question_id):\n    question = get_object_or_404(Post, pk=question_id)\n    return render(request, \"posts/detail.html\", {\"question\": question})",
-        "detail": "posts.views",
-        "documentation": {}
-    },
-    {
-        "label": "detail",
-        "kind": 2,
-        "importPath": "posts.views",
-        "description": "posts.views",
-        "peekOfCode": "def detail(request, question_id):\n    question = get_object_or_404(Post, pk=question_id)\n    return render(request, \"posts/detail.html\", {\"question\": question})",
-        "detail": "posts.views",
-        "documentation": {}
-    },
-    {
-        "label": "RestConfig",
-        "kind": 6,
-        "importPath": "rest.apps",
-        "description": "rest.apps",
-        "peekOfCode": "class RestConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'rest'",
-        "detail": "rest.apps",
-        "documentation": {}
-    },
-    {
-        "label": "UserSerializer",
-        "kind": 6,
-        "importPath": "rest.serializers",
-        "description": "rest.serializers",
-        "peekOfCode": "class UserSerializer(serializers.HyperlinkedModelSerializer):\n    class Meta:\n        model = User\n        fields = ['id', 'url', 'username', 'email', 'groups']\nclass GroupSerializer(serializers.HyperlinkedModelSerializer):\n    class Meta:\n        model = Group\n        fields = ['id', 'url', 'name']\nclass PostSerializer(serializers.HyperlinkedModelSerializer):\n    class Meta:",
-        "detail": "rest.serializers",
-        "documentation": {}
-    },
-    {
-        "label": "GroupSerializer",
-        "kind": 6,
-        "importPath": "rest.serializers",
-        "description": "rest.serializers",
-        "peekOfCode": "class GroupSerializer(serializers.HyperlinkedModelSerializer):\n    class Meta:\n        model = Group\n        fields = ['id', 'url', 'name']\nclass PostSerializer(serializers.HyperlinkedModelSerializer):\n    class Meta:\n        model = Post\n        fields = ['id', 'text', 'pub_date']",
-        "detail": "rest.serializers",
-        "documentation": {}
-    },
-    {
-        "label": "PostSerializer",
-        "kind": 6,
-        "importPath": "rest.serializers",
-        "description": "rest.serializers",
-        "peekOfCode": "class PostSerializer(serializers.HyperlinkedModelSerializer):\n    class Meta:\n        model = Post\n        fields = ['id', 'text', 'pub_date']",
-        "detail": "rest.serializers",
-        "documentation": {}
-    },
-    {
-        "label": "router",
-        "kind": 5,
-        "importPath": "rest.urls",
-        "description": "rest.urls",
-        "peekOfCode": "router = routers.DefaultRouter()\nrouter.register(r'users', views.UserViewSet)\nrouter.register(r'groups', views.GroupViewSet)\nrouter.register(r\"posts\", views.PostViewSet)\n# Wire up our API using automatic URL routing.\n# Additionally, we include login URLs for the browsable API.\nurlpatterns = [\n    path('', include(router.urls)),\n    path('api-auth/', include('rest_framework.urls', namespace='rest_framework'))\n]",
-        "detail": "rest.urls",
-        "documentation": {}
-    },
-    {
-        "label": "urlpatterns",
-        "kind": 5,
-        "importPath": "rest.urls",
-        "description": "rest.urls",
-        "peekOfCode": "urlpatterns = [\n    path('', include(router.urls)),\n    path('api-auth/', include('rest_framework.urls', namespace='rest_framework'))\n]",
-        "detail": "rest.urls",
-        "documentation": {}
-    },
-    {
-        "label": "UserViewSet",
-        "kind": 6,
-        "importPath": "rest.views",
-        "description": "rest.views",
-        "peekOfCode": "class UserViewSet(viewsets.ModelViewSet):\n    \"\"\"\n    API endpoint that allows users to be viewed or edited.\n    \"\"\"\n    queryset = User.objects.all().order_by('-date_joined')\n    serializer_class = UserSerializer\n    permission_classes = [permissions.IsAuthenticated]\nclass GroupViewSet(viewsets.ModelViewSet):\n    \"\"\"\n    API endpoint that allows groups to be viewed or edited.",
-        "detail": "rest.views",
-        "documentation": {}
-    },
-    {
-        "label": "GroupViewSet",
-        "kind": 6,
-        "importPath": "rest.views",
-        "description": "rest.views",
-        "peekOfCode": "class GroupViewSet(viewsets.ModelViewSet):\n    \"\"\"\n    API endpoint that allows groups to be viewed or edited.\n    \"\"\"\n    queryset = Group.objects.all()\n    serializer_class = GroupSerializer\n    permission_classes = [permissions.IsAuthenticated]\nclass PostViewSet(viewsets.ModelViewSet):\n    \"\"\"\n    API endpoint that allows posts to be viewed or edited.",
-        "detail": "rest.views",
-        "documentation": {}
-    },
-    {
-        "label": "PostViewSet",
-        "kind": 6,
-        "importPath": "rest.views",
-        "description": "rest.views",
-        "peekOfCode": "class PostViewSet(viewsets.ModelViewSet):\n    \"\"\"\n    API endpoint that allows posts to be viewed or edited.\n    \"\"\"\n    queryset = Post.objects.all()\n    serializer_class = PostSerializer\n    permission_classes = [permissions.IsAuthenticated]",
-        "detail": "rest.views",
-        "documentation": {}
-    },
-    {
         "label": "application",
         "kind": 5,
         "importPath": "server.asgi",
@@ -549,7 +162,7 @@
         "kind": 2,
         "importPath": "server.settings",
         "description": "server.settings",
-        "peekOfCode": "def combine_lists(*lists):\n    return [item for sublist in lists for item in sublist]\nINSTALLED_APPS = combine_lists(\n    [\n        'posts.apps.PostsConfig',\n    ],\n    [\n        'rest_framework',\n    ],\n    [",
+        "peekOfCode": "def combine_lists(*lists):\n    return [item for sublist in lists for item in sublist]\nINSTALLED_APPS = combine_lists(\n    [\n    ],\n    [\n    ],\n    [\n        'django.contrib.admin',\n        'django.contrib.auth',",
         "detail": "server.settings",
         "documentation": {}
     },
@@ -594,7 +207,7 @@
         "kind": 5,
         "importPath": "server.settings",
         "description": "server.settings",
-        "peekOfCode": "ALLOWED_HOSTS = os.getenv(\"SERVER_URL\", \"\").split(\n    ',')\nCSRF_TRUSTED_ORIGINS = os.getenv(\"CSRF_TRUSTED_ORIGINS\", \"\").split(\n    ',')\n# Application definition\ndef combine_lists(*lists):\n    return [item for sublist in lists for item in sublist]\nINSTALLED_APPS = combine_lists(\n    [\n        'posts.apps.PostsConfig',",
+        "peekOfCode": "ALLOWED_HOSTS = os.getenv(\"SERVER_URL\", \"\").split(\n    ',')\nCSRF_TRUSTED_ORIGINS = os.getenv(\"CSRF_TRUSTED_ORIGINS\", \"\").split(\n    ',')\n# Application definition\ndef combine_lists(*lists):\n    return [item for sublist in lists for item in sublist]\nINSTALLED_APPS = combine_lists(\n    [\n    ],",
         "detail": "server.settings",
         "documentation": {}
     },
@@ -603,7 +216,7 @@
         "kind": 5,
         "importPath": "server.settings",
         "description": "server.settings",
-        "peekOfCode": "CSRF_TRUSTED_ORIGINS = os.getenv(\"CSRF_TRUSTED_ORIGINS\", \"\").split(\n    ',')\n# Application definition\ndef combine_lists(*lists):\n    return [item for sublist in lists for item in sublist]\nINSTALLED_APPS = combine_lists(\n    [\n        'posts.apps.PostsConfig',\n    ],\n    [",
+        "peekOfCode": "CSRF_TRUSTED_ORIGINS = os.getenv(\"CSRF_TRUSTED_ORIGINS\", \"\").split(\n    ',')\n# Application definition\ndef combine_lists(*lists):\n    return [item for sublist in lists for item in sublist]\nINSTALLED_APPS = combine_lists(\n    [\n    ],\n    [\n    ],",
         "detail": "server.settings",
         "documentation": {}
     },
@@ -612,7 +225,7 @@
         "kind": 5,
         "importPath": "server.settings",
         "description": "server.settings",
-        "peekOfCode": "INSTALLED_APPS = combine_lists(\n    [\n        'posts.apps.PostsConfig',\n    ],\n    [\n        'rest_framework',\n    ],\n    [\n        'django.contrib.admin',\n        'django.contrib.auth',",
+        "peekOfCode": "INSTALLED_APPS = combine_lists(\n    [\n    ],\n    [\n    ],\n    [\n        'django.contrib.admin',\n        'django.contrib.auth',\n        'django.contrib.contenttypes',\n        'django.contrib.sessions',",
         "detail": "server.settings",
         "documentation": {}
     },
@@ -747,7 +360,7 @@
         "kind": 2,
         "importPath": "server.urls",
         "description": "server.urls",
-        "peekOfCode": "def combine_lists(*lists):\n    return [item for sublist in lists for item in sublist]\nurlpatterns = combine_lists(\n    [\n        path('', include(\"landing.urls\")),\n        path('posts/', include(\"posts.urls\")),\n        path('api/', include(\"rest.urls\")),\n        path('test/', include(\"getpost.urls\")),\n        path('admin/', admin.site.urls),\n    ],",
+        "peekOfCode": "def combine_lists(*lists):\n    return [item for sublist in lists for item in sublist]\nurlpatterns = combine_lists(\n    [\n        path('', include(\"landing.urls\")),\n        path('admin/', admin.site.urls),\n    ],\n    [\n    ],\n    static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)",
         "detail": "server.urls",
         "documentation": {}
     },
@@ -756,7 +369,7 @@
         "kind": 5,
         "importPath": "server.urls",
         "description": "server.urls",
-        "peekOfCode": "urlpatterns = combine_lists(\n    [\n        path('', include(\"landing.urls\")),\n        path('posts/', include(\"posts.urls\")),\n        path('api/', include(\"rest.urls\")),\n        path('test/', include(\"getpost.urls\")),\n        path('admin/', admin.site.urls),\n    ],\n    [\n    ],",
+        "peekOfCode": "urlpatterns = combine_lists(\n    [\n        path('', include(\"landing.urls\")),\n        path('admin/', admin.site.urls),\n    ],\n    [\n    ],\n    static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)\n)",
         "detail": "server.urls",
         "documentation": {}
     },

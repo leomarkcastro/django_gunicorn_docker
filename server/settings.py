@@ -47,10 +47,8 @@ def combine_lists(*lists):
 
 INSTALLED_APPS = combine_lists(
     [
-        'posts.apps.PostsConfig',
     ],
     [
-        'rest_framework',
     ],
     [
         'django.contrib.admin',
