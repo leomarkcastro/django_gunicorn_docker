@@ -27,7 +27,10 @@ urlpatterns = combine_lists(
     [
         path('', include("landing.urls")),
         path('posts/', include("posts.urls")),
+        path('api/', include("rest.urls")),
+        path('test/', include("getpost.urls")),
         path('admin/', admin.site.urls),
     ],
+    [],
     static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
 )
